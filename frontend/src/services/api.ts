@@ -1,5 +1,5 @@
 import type { PlannerInput, RecommendationResponse, SavedPlan, DiaryEntry } from '../types'
-const BASE='/api/v1'
+const BASE='https://two0260801-prg-dev-beta1.onrender.com/api/v1'
 const TOKEN_KEY='groe.tokens'
 export interface Tokens { access_token:string; refresh_token:string }
 export const authStore={
